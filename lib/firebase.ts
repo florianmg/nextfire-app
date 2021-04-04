@@ -18,7 +18,7 @@ const firebaseConfig = {
 /**
  * Prevent from initializing app twice
  */
-if (!firebase.apps.length) {
+if (!firebase.apps.length) { 
   firebase.initializeApp(firebaseConfig)
 }
 

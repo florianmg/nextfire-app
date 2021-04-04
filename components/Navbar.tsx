@@ -1,10 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
+import React from 'react'
+import Link from 'next/link'
 
 // Top navbar
 const Navbar: React.FC = () => {
-  const user = null;
-  const username = null;
+  const user = null
+  const username = null
 
   return (
     <nav className="navbar">
@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
         )}
       </ul>
     </nav>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const AdminPostsPage: React.FC = () => {
-  return(
+  return (
     <main>
       <h1>Admin Posts Page</h1>
     </main>
   )
-};
+}
 
-export default AdminPostsPage;
+export default AdminPostsPage

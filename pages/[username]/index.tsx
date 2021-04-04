@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const UserProfilePage: React.FC = () => {
-  return(
+  return (
     <main>
       <h1>User Profile Page</h1>
     </main>
   )
-};
+}
 
-export default UserProfilePage;
+export default UserProfilePage

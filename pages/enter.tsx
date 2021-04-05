@@ -1,10 +1,4 @@
-import React, {
-  useEffect,
-  useContext,
-  useState,
-  useCallback,
-  FormEventHandler,
-} from 'react'
+import React, { useEffect, useContext, useState, useCallback } from 'react'
 import debounce from 'lodash.debounce'
 import { UserContext } from '../lib/context'
 import { auth, firestore, googleAuthProvider } from '../lib/firebase'

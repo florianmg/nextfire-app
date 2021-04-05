@@ -8,7 +8,6 @@ const EnterPage: React.FC = () => {
 
   return (
     <main>
-      <h1>Sign Up</h1>
       {user ? (
         !username ? (
           <UsernameForm />
@@ -23,7 +22,7 @@ const EnterPage: React.FC = () => {
 }
 
 const UsernameForm: React.FC = () => {
-  return null
+  return <h1>Username selection</h1>
 }
 
 const SignInButton: React.FC = () => {

@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
+import { UserContext } from '../lib/context'
 import { auth, googleAuthProvider } from '../lib/firebase'
 
 const EnterPage: React.FC = () => {
-  const user = null
-  const username = null
+  const { user, username } = useContext(UserContext)
 
   return (
     <main>

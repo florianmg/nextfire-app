@@ -59,3 +59,13 @@ export const postsToJSON = (doc) => {
     updatedAt: data.updatedAt.toMillis()
   }
 }
+
+/**
+* Creates a new timestamp from the given number of milliseconds.
+* @param milliseconds
+* Number of milliseconds since Unix epoch 1970-01-01T00:00:00Z.
+*
+* @return
+* A new Timestamp representing the same point in time as the given number of milliseconds.
+*/
+export const fromMillis = firebase.firestore.Timestamp.fromMillis;
